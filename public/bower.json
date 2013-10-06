@@ -1,0 +1,34 @@
+{
+  "name": "NEOAnalytics",
+  "version": "0.0.1",
+  "homepage": "https://github.com/Wharmer5476/NEOAnalytics",
+  "authors": [
+    "Will Harmer <w.harmer5476@gmail.com>"
+  ],
+  "description": "The client app built on the ember.js framwork",
+  "main": "app.js",
+  "keywords": [
+    "mvc",
+    "binding",
+    "handlebars"
+  ],
+  "license": "BSD",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "d3": "~3.3.6",
+    "ember": "~1.0.0",
+    "ember-data": "~1.0.0-beta.3",
+    "handlebars": "~1.0.0",
+    "jquery": "~2.0.3",
+    "jquery-ui": "~1.10.3",
+    "modernizr": "~2.6.2",
+    "requirejs": "~2.1.8",
+    "nvd3-gianlucaguarini": "~1.1.10-beta"
+  }
+}
