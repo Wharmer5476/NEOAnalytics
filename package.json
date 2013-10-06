@@ -1,0 +1,33 @@
+{
+  "name": "NEOAI-analytics",
+  "version": "0.0.1",
+  "description": "NEO Action Items Analytics App",
+  "author": "william.harmer@bt.com",
+  "license": "",
+  "engines": {
+    "node": "~0.10.0"
+  },
+  "dependencies": {
+    "express": "~3.1.0",
+    "async": "~0.2.6",
+    "underscore": "~1.4.4",
+    "ejs": "~0.8.3",
+    "moment": "~2.0.0",
+    "mongoose": "~3.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "~0.7.3",
+    "charlatan": "~0.1.4",
+    "grunt": "~0.4.1",
+    "grunt-contrib-watch": "~0.3.1",
+    "grunt-contrib-compass": "~0.1.3",
+    "grunt-cli": "~0.1.6"
+  },
+  "scripts": {
+    "start": "nodemon server.js",
+
+    "mongo": "mongod --config db/mongo.conf",
+
+    "watch": "grunt watch"
+  }
+}
